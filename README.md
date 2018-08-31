@@ -1,2 +1,3 @@
 # PySNMP_OID
 Uses PySNMP module to pull SNMP data given OID for devices on a network
+To use this module you must know the OID of the devices you are polling for SNMP data. An easy way to find these is to use a free MIB browser such as iReasoning (http://www.ireasoning.com/mibbrowser.shtml) to recursivley walk through your network and identify the OID's of a device. These can then be provided to the getData function which will return all the data associated with the given OID. Please note all values such as IP addresses and OID's are for demonstration purpose only and that the OID's of your devices will differ which is why it is important to use a good MIB browser.
